@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
+@import url(./section/navbar.css);
+
+
 :root{
     --open-sans:'Open Sans', sans-serif;;
     --Raleway:'Raleway', sans-serif;;
@@ -16,4 +19,22 @@
     --blue: hsl(198, 60%, 50%);
     -light-red: hsl(0, 100%, 63%);
     --white: hsl(0, 0%, 100%);
+    --text-color-secondary: hsl(0, 5%, 80%);
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    margin: auto;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+li{
+    list-style: none;
+}
+

@@ -1,0 +1,32 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    padding: 30px 0;
+}
+
+.navigation img{
+ width: 140px;
+
+}
+
+.nav_list{
+    display: flex;
+    list-style: none;
+}
+
+.nav_list li{
+    padding:0 20px;
+    color: var(--text-color-secondary);
+    font-size: 14px;
+    font-family: var(--Raleway);
+    font-weight: 400;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.nav_list li:hover{
+    text-decoration: underline;
+    color: var(--white);
+
+}
