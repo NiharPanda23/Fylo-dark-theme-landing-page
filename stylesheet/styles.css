@@ -3,6 +3,7 @@
 
 
 @import url(./section/navbar.css);
+@import url(./section/header.css);
 
 
 :root{
@@ -29,10 +30,15 @@
 }
 
 body {
+    overflow-x: hidden;
+    background-color: var(--primary-color);
+    
+}
+.container{
     width: 1440px;
     margin: auto;
-    background-color: var(--primary-color);
     color: var(--white);
+    border:1px solid var(--intro_mail-color);
 }
 li{
     list-style: none;

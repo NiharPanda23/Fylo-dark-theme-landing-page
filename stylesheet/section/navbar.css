@@ -1,12 +1,14 @@
 .navigation{
     display: flex;
     justify-content: space-between;
-    width: 1440px;
+    width: 1438px;
     padding: 30px 0;
+    background-color: var(--intro_mail-color);
 }
 
 .navigation img{
  width: 140px;
+ padding-left: 20px;
 
 }
 
@@ -28,5 +30,7 @@
 .nav_list li:hover{
     text-decoration: underline;
     color: var(--white);
-
+    font-weight: bold;
+    padding: 0 19px;
+    
 }

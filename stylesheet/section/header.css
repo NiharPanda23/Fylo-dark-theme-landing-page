@@ -1,0 +1,49 @@
+.header{
+    font-family: var(--Raleway);
+    background-color: var(--intro_mail-color);
+    
+}
+
+
+.header-container{
+    width: 1440px;
+
+}
+
+.header-container img {
+    display: block;
+    margin: auto;
+}
+
+.header_info{
+    width: 1440px;
+    height: 28rem;
+}
+
+
+.header_info h1{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 4rem;
+    line-height: 50px;
+}
+
+.header_info p{
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 1rem;
+    line-height: 20px;
+    letter-spacing: 2.5px;
+}
+
+
+
+.header_info h1,p{
+    text-align: center;
+}
+
+.header_info{
+    background-image: url(../../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+
+}
