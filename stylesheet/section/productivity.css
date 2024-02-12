@@ -41,11 +41,12 @@
 }
 
 .productivity-description p:last-of-type{
-    color: #65e2d9;
+    color: #339ecc;
+    cursor: pointer;
 }
 
 .productivity-description p:last-of-type:hover{
-    margin-bottom: 10px;
+    color: #65e2d9;
 }
 
 .productivity-description img{
@@ -62,4 +63,8 @@
     background-color: var(--blue);
     margin-top: 6px;
     
+}
+
+.underline:hover{
+    background-color: var(--cyan);
 }
