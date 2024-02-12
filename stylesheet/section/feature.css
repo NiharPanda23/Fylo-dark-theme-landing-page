@@ -1,0 +1,42 @@
+.feature{
+    background-color: var(intro_mail-color);
+}
+
+.feature_container{
+    width: 1000px;
+    margin:0px  auto;
+
+}
+
+.features_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature_card{
+    width: 430px;
+    height: 250px;
+    margin: 40px 30px;
+
+}
+.feature_card img{
+    display: block;
+    margin:20px auto;
+    width: 100px;
+    height: 80px;
+}
+
+.feature_card h1{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.feature_card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+}
+
