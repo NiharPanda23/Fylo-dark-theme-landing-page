@@ -23,6 +23,7 @@
     height: 250px;
     padding: 50px 30px 0px;
     margin: 40px 30px;
+    box-shadow: 10px 10px 15px hsl(217, 28%, 15%);
 }
 
 .review_card p{
