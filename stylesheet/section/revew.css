@@ -1,0 +1,60 @@
+.review{
+    background-color: var(--primary-color);
+    font-family: var(--open-sans);
+    position: relative;
+}
+
+
+
+
+.review-container{
+    background-image: url(../../images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top 5px left 5px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.review_card{
+    background-color: var(--testimonials_color);
+    width: 400px;
+    height: 250px;
+    padding: 50px 30px 0px;
+    margin: 40px 30px;
+}
+
+.review_card p{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+}
+.user-profile{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    margin-top: 25px;
+}
+
+.user-profile img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 10px 10px 0 0;
+}
+
+.user_des h3{
+
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.user_des p{
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 5px;
+}
