@@ -10,7 +10,7 @@
 .review-container{
     background-image: url(../../images/bg-quotes.png);
     background-repeat: no-repeat;
-    background-position: top 5px left 5px;
+    background-position: top 5px left 20px;
     width: 1300px;
     display: flex;
     justify-content: space-between;
@@ -20,7 +20,7 @@
 .review_card{
     background-color: var(--testimonials_color);
     width: 400px;
-    height: 250px;
+    height: 230px;
     padding: 50px 30px 0px;
     margin: 40px 30px;
     box-shadow: 10px 10px 15px hsl(217, 28%, 15%);
@@ -37,7 +37,7 @@
     width: 300px;
     height: 100px;
     display: flex;
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 .user-profile img{

@@ -22,8 +22,8 @@
 .feature_card img{
     display: block;
     margin:20px auto;
-    width: 100px;
-    height: 80px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }
 
 .feature_card h1{
