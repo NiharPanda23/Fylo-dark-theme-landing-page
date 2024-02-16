@@ -2,7 +2,10 @@
     background-color: var(--footer-color);
     padding-top: 40px;
     font-family: var(--open-sans);
+    color: var(--text-color-secondary);
 }
+
+
 
 .footer_conatiner{
     width: 1200px;
@@ -41,15 +44,24 @@
     font-size: 14px;
 }
 
+.footer_address p:hover{
+    color: white;
+}
+
 .footer_contact li{
     display: flex;
     flex-direction: row;
     margin-top: 8px;
 }
 
+
 .footer_contact p{
     line-height: 20px;
     font-size: 14px;
+}
+.footer_contact p:hover{
+    color: var(--white);
+    cursor: pointer;
 }
 
 .footer_contact img{
@@ -74,6 +86,12 @@
 .footer_list li{
     font-weight: 400;
     font-size: 14px;
+    cursor: pointer;
+    
+}
+
+.footer_list li:hover{
+    color: var(--white);
 }
 
 .footer_icon{
@@ -96,7 +114,12 @@
 
 .footer_icon i{
     margin-top: 8px;
-    margin-left: 4px;
+    margin-left: 2px;
+}
+
+.footer_icon i:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .footer_icon i:first-child{

@@ -45,6 +45,7 @@ body {
     color: var(--white);
     border:1px solid var(--intro_mail-color);
 }
+
 li{
     list-style: none;
 }
@@ -62,3 +63,27 @@ footer {
     color: var(--white);
 }
 
+/* @media screen and (max-width: 375px) {
+    .container{
+        width: 375px;
+        margin: auto;
+        color: var(--white);
+    }
+}
+
+/* nav media query */
+
+/* @media screen and (max-width: 375px){
+    .navigation{
+        display: flex;
+        justify-content: space-between;
+        width: 375px;
+        padding: 15px 0;
+        background-color: var(--intro_mail-color);
+    }
+    .navigation img{
+        width: 50px;
+        padding-left: 20px;
+       
+    }
+} */ 
