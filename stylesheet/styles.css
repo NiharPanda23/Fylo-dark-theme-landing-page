@@ -8,6 +8,7 @@
 @import url(./section/productivity.css);
 @import url(./section/revew.css);
 @import url(./section/earlyaccess.css);
+@import url(./section/footer.css);
 
 
 :root{
@@ -47,6 +48,17 @@ body {
 li{
     list-style: none;
 }
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 footer {
     color: var(--white);
 }
+
