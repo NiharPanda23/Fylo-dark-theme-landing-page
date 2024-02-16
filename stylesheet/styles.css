@@ -7,6 +7,7 @@
 @import url(./section/feature.css);
 @import url(./section/productivity.css);
 @import url(./section/revew.css);
+@import url(./section/earlyaccess.css);
 
 
 :root{
@@ -14,16 +15,16 @@
     --Raleway:'Raleway', sans-serif;;
 
 
-    --intro_mail-color: hsl(217, 28%, 15%);
-    --primary-color: hsl(218, 28%, 13%);
-    --footer-color: hsl(216, 53%, 9%);
-    --testimonials_color: hsl(219, 30%, 18%);
+    --intro_mail-color: #1c2431;
+    --primary-color: #181f2a;
+    --footer-color: #0b1523;
+    --testimonials_color: #202a3c;
 
     --cyan: #65e2d9;
     --blue: #339ecc;
-    -light-red: hsl(0, 100%, 63%);
-    --white: hsl(0, 0%, 100%);
-    --text-color-secondary: hsl(0, 5%, 80%);
+    -light-red: #ff4242;
+    --white: #ffffff;
+    --text-color-secondary: #cfc9c9;
 }
 
 *{

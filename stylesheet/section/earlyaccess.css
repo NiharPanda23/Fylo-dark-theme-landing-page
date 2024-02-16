@@ -1,0 +1,84 @@
+.earlyaccess_container{
+    margin-top: 150px;
+    width: 1438px;
+    height: 400px;
+    background-image: linear-gradient(180deg, #181f2a 50%, #0b1523 50%);
+    font-family: var(--open-sans);
+}
+
+.early_card{
+    background-color: var(--intro_mail-color);
+    width: 1000px;
+    height: 320px;
+    margin:0 auto ;
+}
+
+.early_card-description{
+    padding: 40px 120px 0 120px;
+}
+.early_card-description h1{
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 90px;
+
+    font-family: var(--open-sans);
+    letter-spacing: 1px;
+
+
+}
+
+.early_card-description p{
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding-top: 5px;
+
+}
+
+.early_card-input{
+    margin-top: 40px;
+}
+
+.early_card-input .input{
+    width: 450px;
+    height: 50px;
+    margin: 0 20px 0 140px;
+    
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+.input::placeholder{
+    font-size: 16px;
+}
+
+
+
+.btn{
+    margin-left: 30px;
+    width: 210px;
+    height: 50px;
+    border-radius: 50px;
+
+    background-color: var(--blue);
+
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--white);
+    border: none;
+    outline: none;
+    
+}
+
+.btn:hover{
+    background-color: var(--cyan);
+    cursor: pointer;
+}
+
